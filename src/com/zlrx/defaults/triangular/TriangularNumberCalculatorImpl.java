@@ -3,7 +3,7 @@ package com.zlrx.defaults.triangular;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TriangularCalculatorImpl implements TriangularCalculator {
+public class TriangularNumberCalculatorImpl implements TriangularNumberCalculator {
 
     @Override
     public List<Integer> getTriangularNumbers(int... numbers) {
@@ -16,7 +16,7 @@ public class TriangularCalculatorImpl implements TriangularCalculator {
     }
 
     public static void main(String[] args) {
-        TriangularCalculator tc = new TriangularCalculatorImpl();
+        TriangularNumberCalculator tc = new TriangularNumberCalculatorImpl();
         List<Integer> triangularValues = tc.getTriangularNumbers(20, 30, 40, 50);
         System.out.println(triangularValues);
     }

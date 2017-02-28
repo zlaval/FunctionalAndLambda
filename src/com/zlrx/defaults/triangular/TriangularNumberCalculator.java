@@ -2,7 +2,7 @@ package com.zlrx.defaults.triangular;
 
 import java.util.List;
 
-public interface TriangularCalculator {
+public interface TriangularNumberCalculator {
 
     List<Integer> getTriangularNumbers(int... numbers);
 
