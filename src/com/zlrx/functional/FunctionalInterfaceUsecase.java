@@ -10,9 +10,9 @@ public class FunctionalInterfaceUsecase {
             }
         };
 
-        Converter<Integer, String> converter1 = (Integer a) -> a.toString();
+        Converter<Integer, String> converter1 = (Integer from) -> from.toString();
 
-        Converter<Integer, String> converter2 = a -> a.toString();
+        Converter<Integer, String> converter2 = from -> from.toString();
 
         Converter<Integer, String> converter3 = Object::toString;
 
